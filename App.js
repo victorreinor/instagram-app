@@ -1,4 +1,8 @@
-import React from 'react';
-import App from './src'
+import React from "react";
+import { YellowBox } from "react-native";
 
-export default () => <App />
+YellowBox.ignoreWarnings(["Unrecognized WebSocket"]);
+
+import App from "./src";
+
+export default () => <App />;
