@@ -39,7 +39,7 @@ export default class New extends Component {
         />
 
         <TextInput
-          style={styles.inp  ut}
+          style={styles.input}
           autoCorrect={false}
           autoCapitalize="none"
           placeholder="Local da foto"
